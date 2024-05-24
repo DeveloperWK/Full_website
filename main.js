@@ -1,9 +1,11 @@
 $(document).ready(function () {
   $(".loadMore").click(function () {
-    $("#gellary_img_container").slideToggle(3000);
+    $("#gellary_img_container").slideDown(3000);
+    $(".loadMore").text("Load Less");
   });
-  $(".loadMore").click(function () {
-    $(this).text("Load Less");
+  $(".loadMore").mouseenter(function () {
+    $("#gellary_img_container").slideUp(3000);
+    $(".loadMore").text("Load More");
   });
   $(".gellary_h").mouseleave(function () {
     $(this).animate({ height: "200px", opacity: "0.5" }, "slow");

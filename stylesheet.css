@@ -24,7 +24,9 @@ ul li a:hover {
 body {
   background-color: blanchedalmond;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -239,6 +241,21 @@ button.loadMore:hover {
   font-family: "Playfair Display", serif;
 }
 /* Gellary Section End */
+/* Courses section start*/
+.main-content h1{
+  text-align: center;
+  font-size: 50px;
+  color:black;
+  text-transform: uppercase;
+  text-decoration:underline red 5px;
+}
+.main-content{
+  text-align: justify;
+  margin-bottom:10px;
+}
+
+/* Courses section End*/
+
 /* Footer Section Start */
 footer .footer{
   height: 50px;
